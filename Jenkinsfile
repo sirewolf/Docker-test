@@ -1,6 +1,7 @@
-agent {
-	dockerfile {
-	filename 'Dockerfile'
+pipeline {
+	agent any {
+		dockerfile { 
+			filename 'Dockerfile'
+			}
 	}
 }
-
